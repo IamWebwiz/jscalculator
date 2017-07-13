@@ -1,0 +1,28 @@
+
+#calculator {
+	background: #099;
+	padding: 10px;
+	text-transform: capitalize;
+	color: #FFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 7px;
+}
+
+p#entry {
+	background-color: #FFf;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 7px;
+	border-width: 1px;
+	border-style: outset;
+	border-color: lightgray;
+	color: #099;
+	overflow-x: scroll;
+	display: block;
+	margin-bottom: 15px;
+	font-weight: normal;
+	font-size: 14pt;
+}

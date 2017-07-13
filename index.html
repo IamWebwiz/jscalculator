@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>JavaScript Calculator</title>
+	<meta charset="utf8">
+	<meta name="author" content="Oladejo Ezekiel" href="https://about.me/oladejoezekiel">
+	<meta name="author" content="Webwiz" href="https://github.com/iamwebwiz">
+	<meta name="author" content="Magnificent Designs" href="https://iamwebwiz.github.io">
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" href="css/jscalc.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-4 col-lg-4 col-xs-12"></div>
+			<div class="col-md-4 col-sm-4 col-lg-4 col-xs-12">
+				<div id="calculator">
+					<h2 class="text-center">JavaScript Calculator <br><span class="glyphicon glyphicon-flash"></span></h2>
+					<p id="entry"></p>
+					<p>
+						<button id="one" class="btn btn-default btn-sm" value="1">1</button>
+						<button id="two" class="btn btn-default btn-sm">2</button>
+						<button id="three" class="btn btn-default btn-sm">3</button>
+						<span>
+							<button id="multiply" class="btn btn-default btn-sm">x</button>
+							<button id="divide" class="btn btn-default btn-sm">/</button>
+						</span>
+					</p>
+					<p>
+						<button id="four" class="btn btn-default btn-sm">4</button>
+						<button id="five" class="btn btn-default btn-sm">5</button>
+						<button id="six" class="btn btn-default btn-sm">6</button>
+						<span>
+							<button id="sine" class="btn btn-default btn-sm">sin</button>
+							<button id="cos" class="btn btn-default btn-sm">cos</button>
+						</span>
+					</p>
+					<p>
+						<button id="seven" class="btn btn-default btn-sm">7</button>
+						<button id="eight" class="btn btn-default btn-sm">8</button>
+						<button id="nine" class="btn btn-default btn-sm">9</button>
+						<span>
+							<button id="tan" class="btn btn-default btn-sm">tan</button>
+							<button id="log" class="btn btn-default btn-sm">log</button>
+						</span>
+					</p>
+					<p>
+						<button id="zero" class="btn btn-default btn-sm">0</button>
+						<button id="add" class="btn btn-default btn-sm">+</button>
+						<button id="subtract" class="btn btn-default btn-sm">-</button>
+						<span>
+							<button id="equals" class="btn btn-default btn-sm">=</button>
+							<button id="clear" class="btn btn-danger btn-sm">C</button>
+						</span>
+					</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-lg-4 col-xs-12"></div>
+		</div>
+	</div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
