@@ -8,10 +8,6 @@ $(function() {
 		entry.slideDown(250);
 	}
 
-	var toDegree = function(radianValue) {
-		return radianValue * (180/Math.PI);
-	}
-
 	$('#one').on('click', function(event) {
 		show_entry();
 		entry.append($(this).text());
@@ -67,6 +63,28 @@ $(function() {
 		entry.text('');
 	});
 
-	$()
+	var sine = document.getElementById('sine');
+	sine.addEventListener('click', function(e) {
+		show_entry();
+		entry.text(Math.sin(entry.text()));
+	});
+
+	var cosine = document.getElementById('cos');
+	cosine.addEventListener('click', function(e) {
+		show_entry();
+		entry.text(Math.cos(entry.text()));
+	});
+
+	var tangent = document.getElementById('tan');
+	tangent.addEventListener('click', function(e) {
+		show_entry();
+		entry.text(Math.tan(entry.text()));
+	});
+
+	var logarithm = document.getElementById('log');
+	logarithm.addEventListener('click', function(e) {
+		show_entry();
+		entry.text(Math.log(entry.text()));
+	});
 
 });
