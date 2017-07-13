@@ -10,6 +10,7 @@ $(function() {
 
 	$('#one').on('click', function(event) {
 		show_entry();
+
 		entry.append($(this).text());
 	});
 
